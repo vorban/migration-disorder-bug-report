@@ -1,0 +1,26 @@
+{
+    "name": "vorban/disorder",
+    "description": "Publishes migrations",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vorban\\Disorder\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valentin Orban",
+            "email": "valentin@agence-webup.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^11.15"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Vorban\\Disorder\\DisorderServiceProvider"
+            ]
+        }
+    }
+}
